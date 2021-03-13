@@ -4,7 +4,7 @@ A quick and minimal project starter kit for Three.js projects built with Next.js
 
 ## Preview
 
-<img src="./preview.png" width="320" height="240" />
+<img src="./preview.png" />
 
 [https://next-three-starter.vercel.app](https://next-three-starter.vercel.app)
 
