@@ -1,34 +1,34 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Next.js + Three.js Project Starter Kit
 
-## Getting Started
+A quick and minimal project starter kit for Three.js projects built with Next.js.
 
-First, run the development server:
+## Preview
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+<img src="./preview.png" width="320" height="240" />
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+[https://next-three-starter.vercel.app](https://next-three-starter.vercel.app)
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+## Features
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+- Standard Scene, Camera, Lighting
+- Animation (via THREE.Clock)
+- Orbit Controls
+- Responsiveness
+- Debug GUI (via Tweakpane)
+- FPS monitor (via stats.js)
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## Setup
 
-## Learn More
+- Git clone this repository
+- cd into the repository directory
+- Run `npm install` or `yarn` to install the project dependencies
+- Run `npm run dev` or `yarn dev` to start the project dev server
+- Visit `localhost:3000` in your web browser
+- You should see a cube rotating, an fps-counter on the top-left & a debug panel on the top-right
 
-To learn more about Next.js, take a look at the following resources:
+## Links
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- Next.js ([Docs](https://nextjs.org/docs/getting-started) / [Github](https://github.com/vercel/next.js))
+- Three.js ([Docs](https://threejs.org/docs/index.html#manual/en/introduction/Creating-a-scene) / [Github](https://github.com/mrdoob/three.js/))
+- Tweakpane ([Github](https://github.com/cocopon/tweakpane) / [Website](https://cocopon.github.io/tweakpane/))
+- stats.js ([Github](https://github.com/mrdoob/stats.js/))
